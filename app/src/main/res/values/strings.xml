@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Student_Resgistration_Form</string>
+    <string name="title1">DMI-ST.EUGENE UNIVERSITY</string>
+    <string name="btncourse">Programmes offered</string>
+    <string name="btnadmin">Admin Sign In</string>
+    <string name="filling">FILL IN ALL THE REQUIRED INFORMATION</string>
+    <string name="enteremail">YOUR EMAIL</string>
+    <string name="enterpasword">PASSWORD</string>
+    <string name="login">SIGN IN</string>
+    <string name="programoffered">PROGRAMMES OFFERED</string>
+    <string name="firstname">FIRST NAME</string>
+    <string name="middlename">MIDDLE NAME</string>
+    <string name="lastname">LAST NAME</string>
+    <string name="tittl3" />
+    <string name="title3">DMI-ST.EUGENE UNIVERSITY</string>
+
+
+</resources>

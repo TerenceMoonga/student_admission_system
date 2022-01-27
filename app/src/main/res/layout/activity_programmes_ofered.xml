@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvTitleID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coursebgd"
+    tools:context=".ProgrammesOfered">
+
+    <TextView
+        android:id="@+id/tvmtitle3ID"
+        android:layout_width="293dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/programoffered"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tvthirdyearprogId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvmessage1ID"
+        android:layout_width="352dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="8dp"
+        android:text="1.Diploma in Computer Science\n2.Diploma in Commerce\n3.Diploma in Business Management\n4.Diploma in Social Work\n5.Bachelor Degree Programmes"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvfouthyeaprogID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvfouthyeaprogID"
+        android:layout_width="334dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="32dp"
+        android:text="BACHELOR DEGREE PROGRAMMES "
+        android:textColor="#E91E63"
+
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tvmessage2ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvmessage2ID"
+        android:layout_width="359dp"
+        android:layout_height="263dp"
+        android:layout_marginBottom="16dp"
+        android:text="1.Bachelor of Science in Computer Science\n2.
+Bachelor of Engineering in Computer Science (5 Years)\n3.
+Bachelor of Science in Food and Nutrition\n4.
+Bachelor of Business Administration\5.
+Bachelor of Commerce in Accounts and Finance\n6.
+Bachelor of Social Work (Generic)\n7.
+Bachelor of Arts in Secondary Education with English\n8.
+Bachelor of Arts in Secondary Education with Civic\n\9
+Bachelor of Science in Secondary Education with Mathematics\n10.
+Bachelor of Science in Secondary Education with Geography\n11.
+Bachelor of Science in Secondary Education with Chemistry\n12.
+Bachelor of Science in Secondary Education with Physics\n13.
+Bachelor of Science in Secondary Education with Biology\n14.
+Bachelor of Science in Secondary Education with Computer Science
+"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvthirdyearprogId"
+        android:layout_width="225dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:text="DIPLOMA PROGRAMMES"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tvmessage1ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

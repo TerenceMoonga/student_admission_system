@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "315530083504",
+    "firebase_url": "https://student-resgistration-form.firebaseio.com",
+    "project_id": "student-resgistration-form",
+    "storage_bucket": "student-resgistration-form.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315530083504:android:30ff6f02ad8df51e4ecf75",
+        "android_client_info": {
+          "package_name": "com.example.student_resgistration_form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315530083504-uk9deuf2o85e7t2oqem0k5c3b0r7cb3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjnVqPmXAW9PV7Ea8ejHEr_wtDE6K4cqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315530083504-uk9deuf2o85e7t2oqem0k5c3b0r7cb3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
